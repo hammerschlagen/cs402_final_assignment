@@ -1,0 +1,111 @@
+div#loginBox {
+	margin: auto;
+}
+
+div#loginBox input:not(.btn) {
+	width: 400px;
+	margin: 25px;
+}
+
+body {
+	margin: auto;
+}
+
+div#bleets {
+	margin-top: 5px;
+}
+
+#bleetBox {
+	width: 450px;
+}
+
+.bleet-header {
+	background-color: lightblue;
+	padding: 15px;
+	font-size: 18px;
+}
+
+.timestamp {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 12px;
+}
+
+.block-bleet {
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 20px;
+	font-weight: normal;
+}
+
+.block-bleet input {
+	display: inline;
+	margin-top: 2px;
+	position: relative;
+	top: 2px;
+}
+
+.bleet {
+	border: 1px solid lightblue;
+	margin-bottom: 10px;
+}
+
+.bleet .content {
+	padding: 15px;
+	display: block;
+	word-wrap: break-word;
+}
+
+.bleet-controls {
+	float: right;
+}
+
+.edit {
+	margin-right: 10px;
+}
+
+.create-user {
+	background-color: lightgray;
+	padding: 25px;
+}
+
+.create-user .btn {
+	position: relative;
+	top: 12px;
+}
+
+.create-user label {
+	margin-bottom: 0px;
+	margin-left: 2px;
+}
+
+
+.create-user input[type='text'], .create-user input[type="password"] {
+	margin-right: 10px;
+}
+
+.existing-users-label {
+	margin-top: 45px;
+}
+
+#users thead {
+	background-color: lightblue;
+}
+
+#users tr:nth-child(odd) {
+	background-color: lightgray;
+}
+
+#users td, #users th {
+	padding: 10px;
+	border: 1px solid #c0c0c0;
+}
+
+#users {
+	width: 100%;
+	border: 1px solid lightblue;
+}
+
+#field {
+    margin-bottom:20px;
+}
